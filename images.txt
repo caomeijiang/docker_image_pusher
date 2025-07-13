@@ -5,3 +5,38 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 python:alpine3.19
+# 基础操作系统镜像
+alpine:3.19
+debian:12
+ubuntu:22.04
+centos:7
+
+# 常用服务镜像
+nginx:1.24
+httpd:2.4
+mysql:5.7
+mysql:8.0
+redis:7.0
+mongo:6.0
+
+# 开发语言环境镜像
+python:3.11
+python:alpine3.19
+node:20
+node:18-slim
+golang:1.21
+openjdk:17-jdk
+openjdk:8-jdk-alpine
+php:8.2-apache
+
+# 工具镜像
+busybox:latest
+curlimages/curl:latest
+bitnami/kubectl:latest
+
+# 支持私库镜像
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+xhofe/alist:latest
+
+# 指定架构拉取（如你在脚本中使用 --platform）
+--platform=linux/arm64 xiaoyaliu/alist
