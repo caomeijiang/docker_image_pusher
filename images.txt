@@ -18,6 +18,7 @@ mysql:5.7
 mysql:8.0
 redis:7.0
 mongo:6.0
+mongo-express:1.0.0-alpha.4
 
 # 开发语言环境镜像
 python:3.11
