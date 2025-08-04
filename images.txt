@@ -41,3 +41,5 @@ xhofe/alist:latest
 
 # 指定架构拉取（如你在脚本中使用 --platform）
 --platform=linux/arm64 xiaoyaliu/alist
+wordpress:6.0
+
